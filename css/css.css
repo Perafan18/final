@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: 'AlexBrush';
+  src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Kaushan';
+  src: url('../fonts/KaushanScript-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+	#archivo{
+		width: 100%;
+		max-width: 100%;
+		min-width:99%;
+		min-height:400px;
+		max-height:600px;
+	}
+	.margin{
+		height:70px;
+	}
+
+    .button-success,
+    .button-error,
+    .button-warning,
+    .button-secondary {
+        color: white;
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .button-success {
+        background: rgb(28, 184, 65); /* this is a green */
+    }
+
+    .button-error {
+        background: rgb(202, 60, 60); /* this is a maroon */
+    }
+
+    .button-warning {
+        background: rgb(223, 117, 20); /* this is an orange */
+    }
+
+    .button-secondary {
+        background: rgb(66, 184, 221); /* this is a light blue */
+    }
+    
+    .banner{
+        margin-top: 40px;
+        background: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 1200px 530px;
+        background-position: 0 -100px;
+        min-height: 300px;
+    }
+    nav{
+    position: fixed;
+        width: 100%;
+    }
+
+    .block{
+        background-color: #d8d8d8;
+        margin: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .titulo{
+        font-family: Kaushan;
+    }
+    .t2{
+        font-size: 40px;
+    }
+    .lateral{
+        background-image: url(../img/lateral.jpg);
+        min-height: 450px;
+    }
+    .mtop{
+    margin-top: 10px;
+    }
+    .mbtm{
+    margin-bottom: 10px;
+    }
